@@ -23,7 +23,7 @@ public abstract class Henger {
     public double terfogat(){
         
         return Math.PI*sugar*sugar*magassag;
-        
+        //terfogat kiszamitasa
     }
 
     @Override
