@@ -18,11 +18,10 @@ public class Cso extends TomorHenger{
         return falvastagsag;
     }
     
-    public double terfogat(){
-        
-        return 0;
-        
-    }
+    public double terfogat() {
+    double belsoSugar = sugar - 2 * falvastagsag;
+    return belsoSugar > 0 ? Math.PI * belsoSugar * belsoSugar * magassag : 0;
+}
 
     @Override
     public String toString() {

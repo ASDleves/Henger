@@ -1,17 +1,18 @@
 package model;
 
 public abstract class Henger {
-    private int hengerDarab;
+    private static int hengerDarab = 0;
     private double sugar, magassag;
 
     public Henger(double sugar, double magassag) {
         this.sugar = sugar;
         this.magassag = magassag;
+         hengerDarab++;
     }
 
-    public int getHengerDarab() {
-        return hengerDarab;
-    }
+    public static int getHengerDarab() {
+    return hengerDarab;
+}
 
     public double getSugar() {
         return sugar;
@@ -23,7 +24,7 @@ public abstract class Henger {
     public double terfogat(){
         
         return Math.PI*sugar*sugar*magassag;
-        //terfogat kiszamitasa
+
     }
 
     @Override

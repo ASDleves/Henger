@@ -18,16 +18,16 @@ public class TomorHenger extends Henger{
     public double getFajsuly() {
         return fajsuly;
     }
-    public double suly(){
-        
-        return 0;
-        
-    }
+    public double suly() {
+    return terfogat() * fajsuly;
+}
 
     @Override
     public String toString() {
         return "TomorHenger{" + "fajsuly=" + fajsuly + '}';
     }
+    
+    
     
     
     
