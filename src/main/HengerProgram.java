@@ -8,6 +8,7 @@ public class HengerProgram {
 
     private Henger[] hengerek;
 
+
     public HengerProgram() {
     }
 
@@ -52,9 +53,10 @@ public class HengerProgram {
     private void lista() {
         hengerek = new Henger[4];
         hengerek[0] = new Henger(3, 4);
-        hengerek[1] = new TomorHenger(5, 2);
-        hengerek[2] = new Cso(6, 2, 5);
-        hengerek[3] = new Cso(4, 4, 1);
+        hengerek[1] = new TomorHenger(4, 7);
+        hengerek[2] = new Cso(5, 3, 5);
+        hengerek[3] = new Cso(6, 4, 2);
 
     }
+
 }

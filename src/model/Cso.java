@@ -6,6 +6,7 @@ public class Cso extends TomorHenger {
 
     public Cso(double sugar, double magassag, double falvastagsag) {
         this(sugar, magassag, 1, falvastagsag);
+
     }
 
     public Cso(double sugar, double magassag, double fajsuly, double falvastagsag) {
@@ -33,5 +34,4 @@ public class Cso extends TomorHenger {
         String eredeti = super.toString();
         return eredeti + "Cso{" + "falvastagsag=" + falvastagsag + '}';
     }
-
 }
